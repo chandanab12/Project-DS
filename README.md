@@ -76,7 +76,7 @@
  - The coin with the most leading zeroes we managed to find was _7_. ![Most_zeros](https://user-images.githubusercontent.com/54497878/192125386-39915948-6761-4181-9dc9-b4e0a6d72829.jpeg)
 
  
- - The largest number of working machines we were able to run our code with was _2_. 
+ - The largest number of working machines we were able to run our code with was _4_. 
  
  &nbsp;
 
