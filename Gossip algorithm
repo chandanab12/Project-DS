@@ -1,0 +1,50 @@
+# COP5615 - Project 2
+
+To implement Asynchronous Gossip Algorithm
+
+
+## Authors
+
+ - Sri Borra (4407-0286)
+ - Tarunchandra Narahari (5675-1165)
+
+  
+## Outline
+The goal of this project is to determine the convergence of such algorithms through a simulator based on actors written in Erlang. 
+&nbsp;
+
+The topologies implemented in this project include:
+
+Full Network: Every actor is a neighbor of all other actors. That is, every actor can talk directly to any other actor.
+2D Grid: Actors form a 2D grid. The actors can only talk to the grid neighbors
+Line: Actors are arranged in a line. Each actor has only 2 neighbors (one left and one right, unless you are the first or last actor).
+Imperfect 3D Grid: Grid arrangement but one random other neighbor is selected from the list of all actors (8+1 neighbors).
+
+The algorithms implemented in this project are as follows:
+-Gossip Algorithm: Convergence of Gossip algorithm for all topologies assuming atleast 10 nodes have heard the rumour.
+- Push-sum:  The nodes are converged when the ratio does not change more than 10^-10 in three consecutive rounds. 
+
+## Instructions to run
+The program takes inputs in command line as follows:
+Run all the .erl files
+main:start(No. of nodes, Name of the topology, Name of the algorithm)
+
+##Largest networks dealt with
+Gossip Algorithm
+Full Network Topology:2000
+Line Topology: 2000
+2D Grid Topology: 3500
+Imperfect 2D Grid Topology:3500
+
+
+Push-Sum Algorithm
+Full Network Topology:2000
+Line Topology: 2000
+2D Grid Topology: 3500
+Imperfect 2D Grid Topology:3500
+
+## Result
+The output of our project depicts the time of convergence corresponding to the inputs given while running the program in command prompt.
+&nbsp;
+
+
